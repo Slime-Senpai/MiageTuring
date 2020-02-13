@@ -1,66 +1,32 @@
-div.divnavbar {
-    position: relative;
-    left: 50%;
+header {
+    padding-bottom: 200px;
+}
+header .main-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4000;
+}
+header .main-nav-scrolled{
+    background-color: rgba(0,0,0,0.4);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+.navbar-light .navbar-nav .active .nav-link{
+    color: #00e0d0;
 }
 
-nav.navbar {
-    position: relative;
-    left: -400px;
-    display: block;
-    height: 128px;
-    width: 800px;
-    background-color: darkgrey;
+/*for test*/
+body{
+    background: url('https://wallup.net/wp-content/uploads/2016/05/26/274871-digital_art-dark-static.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
 }
 
-nav.navbar img {
-    position: absolute;
-    width: 300px;
-    margin: 10px;
-}
 
-nav.navbar ul {
-    position: relative;
-    left: 350px;
-    top: 40%;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: center;
-}
-
-nav.navbar li {
-    float: left;
-    margin: auto;
-    padding: 0;
-}
-
-nav.navbar li a {
-    display: block;
-    width: 100px;
-    text-decoration: none;
-    font-size: 1.3em;
-    color: white;
-    background-color: darkslategrey
-}
-
-nav.navbar li a:hover {
-    background-color:rgb(66, 110, 110);
-}
-
-nav.navbar li ul li a {
-    background-color: darkgreen;
-}
-
-nav.navbar li ul {
-    display: none;
-    position: sticky;
-}
-
-nav.navbar li:hover ul {
-    display: block;
-}
-
-nav.navbar li:hover ul li {
-    float: none;
-}
 
